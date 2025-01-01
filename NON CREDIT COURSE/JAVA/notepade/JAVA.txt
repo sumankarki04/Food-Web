@@ -1,0 +1,10 @@
+JAVA
+==========================================================
+int ma 32 bit single
+byte an 8 bit singled interger
+short a 16 bit singled integer
+long a 65 bit single inter
+float a single percesion 32 bit ieee 754 floating point
+double 64 bit ieee 754 floationg
+char a single 16 bit unicod character 
+Boolean a data trype tat can hold only two values t or f 
