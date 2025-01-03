@@ -71,11 +71,11 @@ padding:24px;
 
 .grid-form{
     display: grid;
-    grid-template-columns:repeat(2,minmax(300px,1fr)) ;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr)) ;
     gap:24px
 
 }
-.grid-form input, .grid-form{
+.grid-form input{
     width:95%;
     padding: 10px;
     margin-top: 4px;
@@ -135,47 +135,12 @@ padding:24px;
     <form method="post" action="#">
 <div class="grid-form">
     <div>
-        <label for="Fname">First Name:</label>
-        <input type="text" id="Fname" name="name" required>
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name" required>
     </div>
     <div>
-        <label for="Lname">Last Name:</label>
-        <input type="text" id="Lname" name="last name" required>
-    </div>
-    <div>
-        <label for="Email">Email:</label>
-        <input type="text" id="Email" name="Email" required>
-    </div>
-    <div>
-        <label for="pnumber">Number :</label>
-        <input type="number" id="number" name="number " required>
-    </div>
-    <div>
-        <label>No of year exp</label>
-        <select >
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-           
-        </select>
-        <div>
-            <label>Gender</label>
-            <section>
-                
-            </section>
-        </div>
-    </div>
-    <div>
-        <label>Descripton</label><br>
-        <textarea name="Descripton" id="Descripton" cols="10"></textarea>
-
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name" required>
     </div>
     
 </div>
